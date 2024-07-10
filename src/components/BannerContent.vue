@@ -150,4 +150,65 @@ export default {
   height: 100%;
   padding: 5px 20px;
 }
+
+@media only screen and (max-width: 768px) {
+  .banner-area {
+  background: #6e851c;
+  height: 550px;
+}
+.slide-content{
+  padding:0 20px;
+}
+.slide-content h1{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.67px;
+  text-align: left;
+  color:#FFFFFF;
+  padding-bottom: 30px;
+}.slide-content p{
+  font-family: 'Public Sans',sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: left;
+  color:#FFFFFF;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+.slide-content a{
+  font-family: 'Public Sans',sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25.85px;
+  text-align: right;
+  color:#FFFFFF;
+  padding: 10px 0;
+}
+.slide-content .search-bar{
+  position: relative;
+}
+.slide-content .search-bar input{
+  width: 100%;
+  height: 48px;
+  padding:0 25px;
+  border-radius: 50px;
+  color: #434496;
+}
+.slide-content .search-bar input::placeholder{
+  width: 100%;
+  height: 48px;
+  padding:0 25px;
+  border-radius: 50px;
+  font-weight: 700;
+  color: #434496;
+}
+.slide-content .search-bar button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 5px 20px;
+}
+
+}
 </style>
