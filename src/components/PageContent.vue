@@ -125,6 +125,9 @@
   display: none;
 }
 @media only screen and (max-width:768px){
+  .quick-button{
+    display: none;
+  }
 .pagination{
   display: flex;
   justify-content: space-between;
